@@ -133,6 +133,66 @@
         </tr>
     </table>
 
+    <!--División-->
+    <div style="width: 100%;background: #e4e6e0;">
+        <!--crear formularios investigar adaptabilidad-->
+        <form action=""> <!--action accion que van hacer-->
+            <label for="">formularios estudiante nuevo </label>
+            <br>
+            <!-- <label for="">ID:</label> -->
+            <input type="number" placeholder="Ingrese su ID" style="width:50%; background-color: #e4e6e0;">
+            <br>
+            <!-- <label for="">Nombres</label> -->
+            <input type="text" style="width: 50%; background: #e4e6e0;" placeholder="ingrese nombre">
+            <input type="text" style="width: 50%;background: #e4e6e0;"placeholder="Ingrese apellidos">
+            <input type="email" style="width: 50%;background: #e4e6e0;"placeholder="Ingrese el email">
+            <br>
 
+            <label for="">Seleccione la ciudad</label>
+            <!--Lista de opciones -->
+            <select name="" id="">
+                <option value="">Aguachica</option>
+                <option value="">Bucaramanga</option>
+                <option value="">Valledupar</option>
+            </select>
+            
+            <br>
+            <label for="">Seleccione segun su identidad de genero</label>
+            <br>
+            <!--RADIOS, deben ir acompañadas de un label para poder saber de que trata,
+            si todos los radios tienen el mimo nombre solo me dejar seleccionar uno solo-->
+            <input type="radio" name="genero"><label for="">Femenino</label>
+            <input type="radio" name="genero"><label for="">Masculino</label>
+            <input type="radio" name="genero"><label for="">Binario</label>
+            <input type="radio" name="genero"><label for="">LGTBI+Q</label>
+            <input type="radio" name="genero"><label for="">OTRO</label>
+
+            <!-- Checkbox: poder seleccionar varias opciones, deben ir acompañadas de un label para poder saber de que trata
+            -->
+            <label for="">Selecciona tus hobbies</label><br>
+            <input type="checkbox"><label for="">ninguno</label>
+            <input type="checkbox"><label for="">nada</label>
+            <input type="checkbox"><label for="">vivir</label>
+            
+            <!-- TextArea: cada de texto con filas y columnas -->
+            <label for="">Ingrese un mensaje</label><br>
+            <textarea name="" id=""></textarea>
+            <br>
+
+            <!--  -->
+            <label for="">Ingrese credenciales para acceso a sistema</label> <br>
+            <input type="text" placeholder="Ingrese su usuario"><br>
+            <input type="password" placeholder="Ingrese su contraseña"><br>
+            <input type="submit">
+            <br><br>
+        </form>
+        <!-- Ingresar audios -->
+        <audio src="audios/audio1.mp3" controls></audio>
+        <br>
+        <!-- Ingresar video -->
+        <video src="videos/video1.mp4" controls></video>
+        <br>
+        <!-- APIS  -->
+    </div>
 </body>
 </html>
